@@ -15,8 +15,7 @@ function HeroSection() {
                         <span className='text-gradient ml-2 opacity-0 animate-fade-in-delay-2'>Jadhav</span>
                     </h1>
                     <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-                        I create stellar web experiences with a modern technologies.
-                        Specializing in front-end development, I bulid interfaces that are both beautiful and functional.
+                       I create stellar web experiences using modern technologies. Specializing in full-stack development, I build interfaces that are both functional and user-friendly, backed by robust backend systems.
                     </p>
 
                     <div className='pt-4 opacity-0 animate-fade-in-delay-4'>

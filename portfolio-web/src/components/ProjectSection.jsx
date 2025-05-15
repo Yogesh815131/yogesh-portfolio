@@ -7,7 +7,7 @@ const projects = [
         title: "Food Delivery App",
         description: "A web application for ordering food online.",
         image: "/projects-img/Food-Delivery-App.png",
-        tags: ["HTML", "CSS", "TypeScript", "Node.js", "Express", "MongoDB"],
+        tags: ["HTML", "CSS", "TypeScript", "Angular", "Node.js", "Express", "MongoDB"],
         githubUrl: "https://github.com/Yogesh815131/ecommerce.git",
     },
     {

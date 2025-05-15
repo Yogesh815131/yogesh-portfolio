@@ -39,8 +39,8 @@ function ContactSection() {
                                 </div>
                                 <div className=''>
                                     <h4 className='font-medium'>Email</h4>
-                                    <a href="mailto:yogesh@gmail.com" className='text-muted-foreground hover:text-primary transition-colors'>
-                                        yogesh@gmail.com
+                                    <a href="mailto:yogeshm.jadhav10@gmail.com" className='text-muted-foreground hover:text-primary transition-colors'>
+                                        yogeshm.jadhav10@gmail.com
                                     </a>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 import { Briefcase, Code, User } from 'lucide-react'
 import React from 'react'
+import DownloadResume from './DownloadResume'
 
 function AboutSection() {
   return (
@@ -35,10 +36,10 @@ function AboutSection() {
                 Get In Touch
               </a>
 
-              <a href='#contact' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>
-                
+              {/* <a href='#contact' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>                
                 Download CV
-              </a>
+              </a> */}
+              <DownloadResume /> 
             </div>
           </div>
 
@@ -49,10 +50,9 @@ function AboutSection() {
                   <Code className='h-6 w-6 text-primary'/>
                 </div>
                 <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>Web Development</h4>
+                  <h4 className='font-semibold text-lg'>What I Do</h4>
                   <p className='text-muted-foreground'>
-                    Creating responsive websites and web applications with 
-                    modern frameworks.
+                    I develop frontend applications using React and Redux, and build backend services with Java, Spring Boot, MySQL, and Spring Data JPA. I focus on delivering secure, scalable, and user-friendly applications.
                   </p>
                 </div>
               </div>
@@ -63,10 +63,9 @@ function AboutSection() {
                   <User className='h-6 w-6 text-primary'/>
                 </div>
                 <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>UI/Ux Design</h4>
+                  <h4 className='font-semibold text-lg'>About Me</h4>
                   <p className='text-muted-foreground'>
-                    Designing intuitive user interfaces and seamless user experiences.
-                  </p>
+                    I'm Yogesh Jadhav, a Full-Stack Developer skilled in building complete web applications — from intuitive frontend interfaces to robust backend systems. I enjoy solving problems with clean code and practical solutions.                  </p>
                 </div>
               </div>
             </div>
@@ -76,9 +75,9 @@ function AboutSection() {
                   <Briefcase className='h-6 w-6 text-primary'/>
                 </div>
                 <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>Project Management</h4>
+                  <h4 className='font-semibold text-lg'>My Goal</h4>
                   <p className='text-muted-foreground'>
-                    Leading project from conception to completion with agile methodologies.
+                    To continuously improve as a full-stack developer, stay current with modern tech, and build impactful software that makes a real difference.
                   </p>
                 </div>
               </div>
