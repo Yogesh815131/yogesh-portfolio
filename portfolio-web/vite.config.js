@@ -6,6 +6,10 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    port: 5050, // Set your desired port number here
+    open: true // Optional: automatically open browser
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
